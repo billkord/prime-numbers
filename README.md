@@ -9,7 +9,7 @@ public class myproject {
 		Scanner n = new Scanner(System.in);
 		int number = n.nextInt();
 		int temp = 0;
-		System.out.println("The prime numbers from 0 up to " + number + " are:");
+		System.out.println("The prime numbers from 0 to " + number + " are:");
 		for (int i=2; i<=number; i++){
 			result = 0;
 			temp = i;
